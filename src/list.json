@@ -1,41 +1,46 @@
 [
   {
+    "id":1,
     "name": "Do the IronNutrition ironhack lab",
     "image": "https://www.datocms-assets.com/14946/1634728628-fotos-iron-hack-barcelona-jan-erra-14.jpg?auto=compress&fm=jpg",
     "useful_link": "https://github.com/ironhack-labs/lab-react-ironnutrition",
-    "urgency": 10,
+    "urgency": 6,
     "description": "Do the lab",
     "done": false
   },
   {
+    "id":2,
     "name": "Finish ReactTraining ironhack lab iterations",
     "image": "https://www.datocms-assets.com/14946/1634728628-fotos-iron-hack-barcelona-jan-erra-14.jpg?auto=compress&fm=jpg",
     "useful_link": "https://github.com/ironhack-labs/lab-react-training",
-    "urgency": 10,
+    "urgency": 9,
     "description": "Do the lab",
     "done": false
   },
   {
+    "id":3,
     "name": "Do this awesome application",
     "image": "https://www.aiche.org/sites/default/files/images/courses/shutterstock_605503388.jpg",
     "useful_link": "https://dribbble.com/search/to-do-list",
-    "urgency": 10,
+    "urgency": 1,
     "description": "Make the ultimate most bestest to-do app that you'll see in your life",
     "done": false
   },
   {
+    "id":4,
     "name": "Do the first codewars kata",
     "image": "https://i.pinimg.com/originals/4f/82/8d/4f828d05f82b8b7aedfe8be6a7d9d2a3.png",
     "useful_link": "https://www.codewars.com/kata/54ba84be607a92aa900000f1",
-    "urgency": 9,
+    "urgency": 8,
     "description": "Do the Isograms kata",
     "done": false
   },
   {
+    "id":5,
     "name": "Do the second codewars kata",
     "image": "https://i.redd.it/ax9c8oakm9f61.png",
     "useful_link": "https://www.codewars.com/kata/558fc85d8fd1938afb000014",
-    "urgency": 9,
+    "urgency": 5,
     "description": "Do the sum of two integers kata",
     "done": false
   }
