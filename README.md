@@ -1,52 +1,70 @@
-# ✨ Ultimate To-do list app ✨
+# Getting Started with Create React App
 
-This is your change to review everything we have done so far in module 3, PLUS you will have a really good to-do app to go back to in your future endeavours. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This app was created with <code>create-react-app</code>, so just run:
+## Available Scripts
 
-```bash
-npm install
-npm run start
-```
+In the project directory, you can run:
 
-> Remember that you have all [the lessons recorded](https://github.com/WDPT-2204/PT0422-videos) in case you need to get over any concept again. This is your chance to really solidify the knowledge you have about React.
+### `npm start`
 
-Try to do your best: puma mode ON 🐆
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![](https://media3.giphy.com/media/tZCkL6BsL2AAo/giphy.gif?cid=ecf05e47mtj2j8h50v43z0ll58clbfxy90wyt1017jwvj4dc&rid=giphy.gif&ct=g)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
-## Iteration 1: Print tasks
+### `npm test`
 
-Create a separate <code>TaskCard</code> component and use it to render all the tasks it on <code>App.jsx</code>. The card for each task should be nice and display all the information of the card.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-🚧 *Styles are not a bonus, they are a MUST!* 🚧  
-This time, you will work *desktop-first*: display the cards with *display: flex* and present them nicely.
+### `npm run build`
 
----
-## Iteration 2: Delete tasks
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Create the functions you need on <code>TaskCard</code> and on <code>App.jsx</code> to delete tasks when clicking the delete button.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
-## Iteration 3: Filter tasks
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Create a separate <code>SearchBar</code> component and send the value to the <code>App.jsx</code> to filter the tasks shown.
+### `npm run eject`
 
----
-## Iteration 4: Create tasks
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Create a separate <code>NewTask</code> component with all the fields necessary to create a new task. Save the information in the component's state, and *lift the state* to the parent <code>App.jsx</code> to add the new task.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
-## Iteration 5: Order tasks by urgency
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Create a function <code>handleUrgency</code>. Then, add a button on top of your <code>App.jsx</code> page that will order the tasks displaying **the most urgent first**.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-## BONUS 🎯 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Add as many features as you wish to make sure you win this fierce puma competition. Get inspired and do whatever comes to mind: add amazing styles, make it responsive, add more functionalities / more complex tasks (you can edit the task fields if you want)... get inspired 💡!
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
